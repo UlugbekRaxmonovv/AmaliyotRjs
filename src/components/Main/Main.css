@@ -1,0 +1,374 @@
+body{
+    overflow-x: hidden;
+}
+.main_all_row{
+    background-color: #F0F4F8;  
+    margin-top: -50px; 
+}
+.main{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+
+}
+.main_all{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.span_link{
+    position: absolute;
+    top: 0;
+    left: -30px;    
+    width: 28px;
+    height: 57.04px;
+    background-color: #DAE9F9;
+    border-top-left-radius: 120px;
+     border-bottom-right-radius: 120px;  
+}
+.span_content{
+    position: absolute;
+    top: 180px;
+    left: -180px;
+    right: 0;
+    width: 73px;
+    height: 149.1px;
+    background-color: #DAE9F9;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;  
+    z-index: 200;
+  
+
+}
+.span_content_link{
+    position: absolute;
+    top: 260px;
+    left: -160px;
+    right: 0;
+    width: 72px;
+    height: 224px;
+    background-color: #cee5fe;
+    border-top-left-radius: 2000px;
+     border-bottom-right-radius: 2000px;  
+    
+}
+.span_linka{
+    position: absolute;
+    top: 150px;
+    right: 0;
+    left: 180px;
+    width: 28px;
+    height: 57.04px;
+    background-color: #DAE9F9;
+    border-top-left-radius: 120px;
+     border-bottom-right-radius: 120px;  
+}
+.span_contenta{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0;
+    width: 73px;
+    height: 149.1px;
+    background-color: #DAE9F9;
+    border-top-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;  
+    z-index: 200;
+  
+
+}
+.span_content_linka{
+    position: absolute;
+    top:70px;
+    left: 20px;
+    right: 0;
+    width: 72px;
+    height: 224px;
+    background-color: #cee5fe;
+    border-top-left-radius: 2000px;
+     border-bottom-right-radius: 2000px;  
+    
+}
+.span_itim{
+    position: absolute;
+    top: 400px;
+    left: 120px;
+    width: 48.02px;
+    height: 151px;
+    background-color: #DAE9F9;
+    border-top-left-radius: 4000px;
+     border-bottom-right-radius: 4000px;  
+    
+}
+.wrapperr{
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    gap: 110px;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+.p1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px 0;
+}
+.p2 h6:first-child{
+    font-family: Ubuntu;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    color: #8FB1C7;
+    border-bottom: 1px solid #8FB1C7 ;
+    
+}
+.p2 h5{
+    font-family: Ubuntu;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: left;
+    color: #8FB1C7;
+}
+
+.p2 svg{
+    font-size: 10px;
+    color: #8FB1C7;
+}
+.card_all h1{
+    max-width: 667px;
+    width: 100%;
+    height: 108px;
+    font-family: Ubuntu;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48.4px;
+    text-align: left;
+    color: #000000;
+        
+}
+.card_all h1 .span_tig{
+    font-family: Ubuntu;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 48.4px;
+    text-align: left;
+    color: blue;
+
+}
+.card_all p{
+    max-width: 792px;
+    width: 100%;
+    height: 28px; 
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: #000000;    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.main_btn button{
+    max-width: 300px;
+    width: 100%;
+    height: 68px;    
+    padding: 0 30px;
+    border-radius: 28px 0px 28px 0px;
+    opacity: 0px;
+    background: #0000DE;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 16px;    
+     font-weight: 400; 
+    line-height: 17.4px;
+    text-align: center;
+    border: none;
+    
+}
+.main_btn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 42px;
+}
+.main_btn .btn-on{
+    cursor: pointer;
+}
+.main_btn .btn-on:first-child{
+    width: 8px;
+    height: 8px;
+    background: #C3D1E1;
+    border-radius: 50%;
+}
+.main_btn .btn-on:nth-child(2){
+    background: #C3D1E1;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+}
+.main_btn .btn-on:nth-child(3){
+    background: #355DFB;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+}
+.main_btn .btn-on:nth-child(4){
+    background: #C3D1E1;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+}
+.main_btn .btn-on:nth-child(5){
+    background: #C3D1E1;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+
+}
+.card_all img{
+    max-width: 458px;
+    width: 100%;
+    height: 452px; 
+}
+.mySwiper .swiper-button-next{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 5%;
+    color: black;
+    font-size: none;
+}
+.mySwiper .swiper-button-prev{
+    width: 40px;
+   height: 40px;
+   background-color: white;
+   object-fit: cover;
+   border-radius: 50%;
+   margin-left: 90%;
+   margin-top: 5%;
+   color: black;
+}
+.mySwiper .swiper-button-prev:after{
+    font-family: swiper-icons;
+    font-size:20px;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initia;
+    line-height: 1;
+}
+.mySwiper .swiper-button-next:after{
+    font-family: swiper-icons;
+    font-size:20px;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initia;
+    line-height: 1;
+}
+.Swiperr{
+    display: none !important;
+}
+
+@media(max-width:390px){
+    .mySwiper{
+        display: none !important;
+    }
+    .Swiperr{
+        display: block !important;
+    }  
+    .wrapperr{
+        padding: 0 21px;
+    }
+
+
+    .main_btn .btn-on:first-child{
+        display: none !important;;
+    }
+    .main_btn .btn-on:nth-child(2){
+        display: none !important;;
+    }
+    .main_btn .btn-on:nth-child(3){
+        display: none !important;
+    }
+    .main_btn .btn-on:nth-child(4){
+        display: none !important;
+    }
+    .main_btn .btn-on:nth-child(5){
+        display: none !important;
+    }
+    .p1{
+        margin-top: 180px ;
+    }
+    .card_all h1{
+        max-width: 339px;
+        width: 100%;
+        height: 107px;
+        font-family: Ubuntu;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35.2px;
+        text-align: left;        
+        color: #000000;
+            
+    }
+    .card_all h1 .span_tig{
+        font-family: Ubuntu;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 35.2px;
+        text-align: left;        
+        color: blue;
+    
+    }
+    .card_all p{
+        max-width: 339px;
+        width: 100%;
+        height: 39px; 
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.2px;
+        text-align: left;        
+        color: #000000;   
+        margin-top: 13px; 
+    }
+    
+    .main_btn button{
+        width: 242px;
+        width: 100%;
+        height: 43px;    
+        padding: 0 30px;
+        border-radius: 20px 0px 20px 0px;
+        background: #0000DE;
+        color: #FFFFFF;
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.4px;
+        text-align: center;        
+        border: none;
+        margin-top: -20px;
+        
+    }
+    .card_all img{
+        width: 312px;
+        height: 307.91px;
+    }
+    .swiper-pagination{
+        margin-top: 10%;
+        background-color: white;
+        height: 40px;
+    }
+}
