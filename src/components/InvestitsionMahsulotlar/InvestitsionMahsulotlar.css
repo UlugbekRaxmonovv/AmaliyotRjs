@@ -48,6 +48,7 @@
     width: 117px;
     display: none;
     
+    
 }
 
 @media(max-width:390px){
@@ -57,13 +58,17 @@
         justify-content: center;
         gap: 130px;
         flex-wrap: wrap;
-        padding: 65px 21px;
+        padding: 65px 0px;
     } 
+    .InvestitsionMahsulotlar_row{
+        padding: 0 21px;
+    }
     .InvestitsionMahsulotlar_row h1{
         width: 339px;
         height: 69px;
         font-size: 28px;
         line-height: 30.4px;
+        /* padding: 0 16px; */
         
     }
     .InvestitsionMahsulotlar_row p{
@@ -75,6 +80,7 @@
         text-align: left;
         color: #6489A0;
         margin-top: 19px;
+        /* padding: 0 10px; */
     }
     .InvestitsionMahsulotlar_row h5{
         font-size: 12px;
@@ -87,9 +93,11 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
         margin-top: -99px;
+        /* padding: 0 21px; */
     }
     .InvestitsionMahsulotlar_row h6{
         display: block;
+       
         
     }  
 }
