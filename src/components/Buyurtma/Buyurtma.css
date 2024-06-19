@@ -1,0 +1,207 @@
+.Buyurtma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Buyurtma_alt {
+    width: 1368px;
+    height: 454px;
+    border-radius: 64px 6px 64px 6px;
+    background: #F0F4F8;
+}
+
+.Buyurtma_alt_row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 82px   0px ;
+    gap: 180px;
+    flex-wrap: wrap;
+}
+
+.Buyurtma_alt_list h1 {
+    max-width: 645px;
+    width: 100%;
+    height: 80px;
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+    color: #000000;
+}
+
+.Buyurtma_alt_list h1 span {
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 37.4px;
+    text-align: left;
+    color: blue;
+}
+
+.Buyurtma_alt_list p {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #6E9BB8;
+    max-width: 747px;
+    width: 100%;
+    height: 22px;
+    padding: 17px 0;
+}
+
+.buyurtma_btn {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 33px 0;
+}
+
+.buyurtma_list button {
+    width: 250px;
+    height: 68px;
+    border-radius: 28px 0px 28px 0px;
+    background: #0000DE;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.buyurtma_lists button {
+    width: 153px;
+    height: 68px;
+    top: 4222px;
+    left: 604px;
+    gap: 0px;
+    border-radius: 28px 0px 28px 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-align: center;
+    color: #0000DE;
+    border: none;
+}
+
+.Buyurtma_alt_list_img {
+    position: relative;
+    width: 100%; 
+    height: 100%;
+}
+
+.Buyurtma_alt_list_img_all:first-child {
+    position: absolute;
+    top: 7%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    width: 433px;
+height: 213px;
+
+}
+
+.Buyurtma_alt_list_img img {
+    position: relative; 
+    z-index: 100000;
+    margin-left: -20%;
+
+
+    
+}
+
+@media(max-width:390px){
+    .Buyurtma_alt {
+        width: 390px;
+        height: 358px;
+        border-radius: 30px;        
+        background: #F0F4F8;
+        margin-top: -20px;
+    }
+   .Buyurtma_alt_list_img{
+    display: none;
+     }  
+
+    .Buyurtma_alt_list{
+      padding: 0 21px;
+    } 
+    
+.Buyurtma_alt_list h1 {
+    width: 343px;
+    height: 91px;    
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30.8px;
+    color: #000000;
+}
+
+.Buyurtma_alt_list h1 span {
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30.8px;
+    text-align: left;    
+    color: blue ;
+}
+
+.Buyurtma_alt_list p {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #6E9BB8;
+    width: 339px;
+    height: 70px;    
+    padding: 26px 0;
+}
+
+.buyurtma_btn {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+   margin-top: 36px 0;
+}
+
+.buyurtma_list button {
+    width: 206px;
+    height: 48px;
+    border-radius: 20px 0px 20px 0px;    
+    background: #0000DE;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: center;    
+    color: #FFFFFF;
+    border: none;
+}
+
+.buyurtma_lists button {
+    width: 123px;
+    height: 48px;
+    border-radius: 20px 0px 20px 0px;
+    background: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: center;    
+    color: #0000DE;
+    border: none;
+}
+
+
+}

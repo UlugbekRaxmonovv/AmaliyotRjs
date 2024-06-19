@@ -1,0 +1,460 @@
+.modeli_all{
+    padding: 81px 0;
+}
+.modeli_all h1{
+    width: 827px;
+    height: 39px;    
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+    color: #000000;
+    
+}
+.modeli_all_row{
+    display: flex;
+    align-items: self-start;
+    justify-content:center;
+    /* flex-wrap: wrap; */
+    gap: 40px;
+    padding: 40px 0;
+}
+.modeli_all_row_list p{
+    width: 357.95px;
+    height: 32.69px;
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    color: #0000DE;   
+    margin-top: 15px;  
+    margin-left: 10%;
+}
+.modeli_all_row_list h6{
+    width: 357.95px;
+    height: 32.69px;
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    color: #0000DE;   
+    margin-top: 15px;  
+
+}
+
+.hammsi_model{
+    display: flex;
+    gap: 40px;
+    /* align-items: center; */
+}
+.model_img{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+
+}
+.model_img_alt img{
+    width: 216px;
+    height: 139px;    
+}
+.model_img h1{
+    width: 174px;
+    height: 54px;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    color: #000000;
+        
+}
+.model_img h5{
+    width: 195.32px;
+    height: 53.69px;
+    top: 4667.6px;
+    left: 519.99px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+    color: #000000;
+   margin-top: 10px;
+
+    
+        
+}
+.img_link img{
+    width: 70px;
+    height: 70px;
+    margin-left: -35%;
+    margin-top: 180%;
+}
+.img_linkl img{
+    width: 70px;
+    height: 70px;
+    margin-left: 0%;
+    margin-top: 180%;
+}
+.model_img h4{
+    width: 174px;
+    height: 54px;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+    color: #000000;
+    margin-left: 30px;
+        
+}
+.model_img h6{
+    width: 195.32px;
+    height: 53.69px;
+    top: 4667.6px;
+    left: 519.99px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+    color: #000000;
+    margin-left: 30px;
+
+        
+}
+.bootom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+  
+
+}
+.boot0m_row{
+    width: 1001px;
+    height: 98.2px;
+    border-bottom: 2px solid #E1F1FF;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    margin-top: 25px;
+
+}
+.pri_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0%;
+    margin-top: -16.5%;
+}
+.pris{
+    width: 1100px;
+    height: 174px;
+    border-bottom: 5px solid #E1F1FF    
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 0;
+    flex-direction: column;
+}
+.text_row p{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    color: #92A7B9;
+    width: 708.9px;
+    height: 23.34px;    
+}
+.lift{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right p{
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30.8px;
+    text-align: center;
+    color: #000000;
+    width: 410.42px;
+    height: 34.24px;;
+        
+}
+.olr{
+    display: none;
+}
+.ok{
+    margin-top: 60px;
+    display: none;
+}
+.hammsi_modelkl{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.hammasi_row_listkl p{
+    width: 250px;
+    height: 54px;    
+    font-family: Ubuntu;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    color: #000000;
+    
+}
+.hammasi_row_listkl h5{
+    width: 250px;
+    height: 54px;    
+    font-family: Ubuntu;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    color: #0000DE;
+
+    
+}
+
+.hammasi_row_listkl img{
+    width: 64px;
+height: 64px;
+transform: rotate(90deg);
+
+}
+
+@media(max-width:390px){
+    .modeli_all{
+        padding: 51px 21px;
+    } 
+    .modeli_all h1{
+        width: 339px;
+        height: 39px;    
+        font-size: 29px;
+        line-height: 31.4px;
+        color: #000000;
+        
+    }
+    .modeli_all_row{
+        display: flex;
+        align-items: self-start;
+        justify-content:center;
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 21px;
+    }
+    .modeli_all_row_list p{
+        width: 279px;
+        height: 54px;        
+        font-family: Ubuntu;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25.2px;
+        text-align: left;        
+        color: #0000DE;   
+        margin-top: 6px;  
+        margin-left: 12%;
+    }
+    .modeli_all_row_list h6{
+        width: 279px;
+        height: 54px;        
+        font-family: Ubuntu;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25.2px;
+        text-align: left;        
+        color: #0000DE;   
+        margin-top: 6px;  
+        margin-left: 1%;
+      
+    
+    }
+    .hammasi_row_list img{
+     position: absolute;
+     top: -5%;
+     left: -10%;
+     transform: rotate(90deg);
+
+    }
+    .hammsi_model{
+        position: relative;
+        display: flex;
+        gap: 40px;
+    }
+    .modeli_all_row_listt{
+        display: flex;
+    }
+    .modeli_all_row_listt img{
+        width: 40px;
+        height: 55px; 
+        margin-left: -12px;
+        margin-top: 0px;
+    }
+    .olr{
+        display: block;
+        font-family: Ubuntu;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 25.2px;
+        text-align: left;
+        width: 279px;
+        height: 78px;
+        top: 5211px;
+        left: 85px;
+        gap: 0px;
+        opacity: 0px;
+        color: #000000;
+        margin-top: -10px;
+        margin-left: 10px;
+                
+    }
+    .ok{
+        margin-top: 60px;
+        display: block;
+        margin-left: -10px;
+    }
+    .model_img{
+       display: flex;
+       gap: 10px;
+       align-items: center;
+    
+    }
+  
+    .model_img_altt{
+        width: 40px;
+        height: 55px; 
+    }
+    .model_img_alt img{
+        width: 216px;
+        height: 139px;    
+        display: none;
+      
+    }
+    .model_img_alyt img{
+        display: none;
+    }
+    .model_img h1{
+        display: none;
+            
+    }
+    .model_img h5{
+       display: none;      
+    }
+    .img_link img{
+        width: 70px;
+        height: 70px;
+        margin-left: -35%;
+        margin-top: 180%;
+    }
+    .img_linkl img{
+        width: 70px;
+        height: 70px;
+        margin-left: 0%;
+        margin-top: 180%;
+    }
+    .model_img h4{
+        width: 174px;
+        height: 54px;
+        font-family: Ubuntu;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 24.2px;
+        text-align: left;
+        color: #000000;
+        margin-left: 30px;
+        display: none;
+            
+    }
+    .model_img h6{
+        width: 195.32px;
+        height: 53.69px;
+        top: 4667.6px;
+        left: 519.99px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: Ubuntu;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 24.2px;
+        text-align: left;
+        color: #000000;
+        margin-left: 30px;
+        display: none;
+    
+            
+    }
+    .bootom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: -30px;
+      
+    
+    }
+    .boot0m_row{
+        width: 390px;
+        height: 125px;
+        border-radius: 29px;
+        background: #F0F4F8;
+        margin-top: 50px;
+     
+        
+    
+    }
+    .pri_row{
+       display: none;
+    }
+    .text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 18px 21px;
+        flex-direction: column;
+    }
+    .text_row p{
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.6px;
+        text-align: left;        
+        color: #92A7B9;
+        width: 339px;
+        height: 42px;
+        margin-top: 40px;
+         
+    }
+    .lift{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right p{
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22.4px;
+        text-align: left;        
+        width: 339px;
+        height: 24px;
+        margin-top: -70px;
+        
+    }
+    .right img{
+        display: none;
+    }
+    
+
+}

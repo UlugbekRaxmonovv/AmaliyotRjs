@@ -1,3 +1,9 @@
+.hisoblash_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hisoblash{
     /* margin-left:7%; */
     width: 1368px;

@@ -6,8 +6,9 @@ import rasm2 from '../../assets/img/grup11.png'
 
 const Рассчитай = () => {
     return (
-        <div className="container">
-<div className="hisoblash">
+        <div>
+            <div className="hisoblash_container">
+            <div className="hisoblash">
         <div className='containera'>
             <div className="hisoblash_all">
               <h1>Рассчитай свои накопления и доход</h1>
@@ -115,6 +116,8 @@ const Рассчитай = () => {
            </div>
              
         </div>
+            </div>
+
         </div>
         
     );
