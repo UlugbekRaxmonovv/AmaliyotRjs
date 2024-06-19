@@ -8,6 +8,7 @@ import Рассчитай from './components/Рассчитай/Рассчита
 import Investitsiya from './components/Investitsiya/Investitsiya'
 import Company from './components/Company/Company'
 import IshModeli from './components/IshModeli/IshModeli'
+import Онлайн from './components/Онлайн/Онлайн'
 import InvestitsionMahsulotlar from './components/InvestitsionMahsulotlar/InvestitsionMahsulotlar'
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
     <Company/>
     <Buyurtma/>
     <IshModeli/>
+    <Онлайн/>
    
     </>
   )
