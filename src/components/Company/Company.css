@@ -1,0 +1,320 @@
+.company {
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 57px 0;
+}
+
+.company_Alt {
+    position: relative;
+}
+
+.images {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 180%;
+    z-index: 100;
+}
+
+.images_row {
+    position: relative;
+}
+
+.images_row img {
+    width: 302.24px;
+    height: 315px;
+    display: block;
+    object-fit: contain;
+}
+
+.images_row .rasm2{
+    width: 315.24px;
+    height: 380px;
+    display: block;
+    margin-top: -20%;
+    object-fit: contain;
+}
+
+.images_row::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(240, 244, 248, 0) 0%, #F0F4F8 85%);
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.company_Alt_row {
+    width: 405px;
+    height: 565px;
+    border-radius: 6px;
+    background: #F0F4F8;
+    margin-top: -220px;
+}
+.prg{
+    position: absolute;
+    top: 50%;
+    padding: 0 40px;
+    z-index: 1000;
+}
+.prg p{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: left;
+    color: #79A6C3;
+    
+}
+.prg h1{
+    width: 319px;
+    height: 31px;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: left;
+    color: #000000;
+    padding: 10px 0;
+        
+}
+.price_listt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.price_list_row h1{
+    font-family: Ubuntu;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 39.6px;
+    text-align: left;
+    color: #355DFB;
+    height: 54px;
+    
+}
+.price_list_row p{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: left;
+    color: #000000;
+    
+}
+.pri{
+    margin-left: -50%;
+}
+.prg h6{
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    width: 354px;
+    height: 44px;
+    color: #6E9BB8;
+        
+}
+.all{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 27px 0;
+}
+.all_row button{
+    width: 166px;
+    height: 48px;
+    border-radius: 20px 0px 20px 0px;
+    background: #0000DE;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+        
+}
+.all_roww button{
+    width: 133px;
+    height: 48px;
+    border-radius: 20px 0px 20px 0px;
+    background: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15.4px;
+    text-align: center;
+    color: #0000DE;
+    border: none;
+        
+}
+
+@media(max-width:390px){
+    .company {
+        margin-top: -90px;
+        overflow-y: hidden;
+    }
+    .company_Alt_row {
+        width: 339px;
+        height: 327px;
+        border-radius: 10px;        
+        margin-top: -220px;
+    } 
+    .company_Alt {
+        position: relative;
+    }
+    
+    .images {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        top: 180%;
+       margin-left: 57%;
+        z-index: 100;
+        overflow: hidden;
+    }
+    .images_row {
+        position: relative;
+        overflow: hidden;
+        overflow-y: hidden;
+    }
+    
+    .images_row img {
+        width: 205px;
+        height: 100vh;        
+        display: block;
+        object-fit: contain; 
+        /* margin-left: 30%; */
+        overflow-y: hidden;
+
+      
+    }
+    
+    .images_row .rasm2{
+        width: 302.24px;
+        height: 115vh;
+        display: block;
+        margin-top: -40%;
+        margin-left: -58%;
+        object-fit: contain;
+        overflow-y: hidden;
+
+    }
+    
+    .images_row::after {
+        content: "";
+        position: absolute;
+        top: 20%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, rgba(240, 244, 248, 0) 0%, #F0F4F8 200%);
+        pointer-events: none;
+        z-index: 1000;
+    }
+    
+    .company_Alt_row {
+        width: 339px;
+        height: 327px;
+        border-radius: 10px;        
+        background: #F0F4F8;
+        margin-top: -500px;
+    }
+    .prg{
+        position: absolute;
+        top: 30%;
+        padding: 0 40px;
+        z-index: 1000;
+    }
+    .prg h1{
+        width: 201px;
+        height: 49px;        
+        font-family: Ubuntu;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: left;        
+        color: #000000;
+        padding: 8px 0;
+            
+    }
+    .price_listt{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+        z-index: 1000;
+    }
+    .price_list_row h1{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26px;
+        height: 32px;
+        color: #355DFB;
+
+        
+    }
+    .price_list_row p{
+        font-family: Ubuntu;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 13.2px;
+        text-align: left;
+        color: #000000;
+        height: 15px;
+        
+    }
+    .prg h6{
+        font-size: 12px;
+        line-height: 16.4px;
+        width: 200.89px;
+        height: 50.22px;        
+            
+    }
+    .all{
+        display: flex;
+        align-items: center;
+        gap: 17px;
+        padding: 27px 0;
+        margin-top: -20px;
+    }
+    .all_row button{
+        width: 138.95px;
+        height: 40.18px;     
+        border-radius: 20px 0px 20px 0px;
+        background: #0000DE;
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.4px;
+        text-align: center;        
+        color: #FFFFFF;
+        border: none;
+            
+    }
+    .all_roww button{
+        width: 111.33px;
+        height: 40.18px;       
+        border-radius: 20px 0px 20px 0px;
+        background: #FFFFFF;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.4px;
+        text-align: center;        
+        color: #0000DE;
+        border: none;
+            
+    }
+
+}

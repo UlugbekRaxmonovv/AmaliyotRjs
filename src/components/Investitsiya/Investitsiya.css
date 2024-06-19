@@ -1,0 +1,246 @@
+.investitsiya_ro_list{
+   padding: 150px 0;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+
+.investitsiya_row_img {
+    position: relative; 
+}
+
+.investitsiya_row_img_row {
+    position: absolute; 
+    z-index: 1000;
+}
+
+.investitsiya_row_img_row img {
+    z-index: 1; 
+    width: 667px;
+    /* width: 100%; */
+    height: 327px;
+
+    
+}
+
+.investitsiya_row_img img {
+    position: absolute; 
+    top: 43%;
+    left: 80%;
+    z-index: -1; 
+}
+.investitsiya_row_img .bnt button{
+    width: 318px;
+    height: 68px;
+    top: 2066px;
+    left: 498px;
+    gap: 0px;
+    border-radius: 28px 0px 28px 0px;
+    opacity: 0px;
+    background: #0000DE;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 110%;
+    margin-left: 112%;
+        
+    
+}
+.investitsiya_row_teg h1{
+    width: 466px;
+    height: 38px;
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 37.4px;
+    text-align: left;
+    color: #000000;
+        
+}
+.investitsiya_row_teg p{
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    width: 468px;
+    height: 27px;
+    color: #6489A0;
+    padding: 34px 0; 
+}
+.one{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    /* gap: 20px; */
+}
+.onea{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.one_row{
+    display: flex;
+    align-items: center;
+}
+.alr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    background: #D7DFFE;
+    border: 1px solid #355DFB;
+    border-radius: 50%;
+    color: #355DFB;
+    font-size: 30px;
+    font-weight: 200;
+    margin-left: -60px;
+}
+.one_row p{
+    /* width: 465px;
+    height: 42px; */
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26.4px;
+    text-align: left;
+    color: #000000;
+    
+}
+.pr{
+    width: 465px;
+    height: 196px;
+    top: 1939px;
+    left: 915px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #6489A0;
+    padding: 8px 0;
+        
+}
+
+
+
+@media(max-width:390px){
+    .investitsiya_ro_list{
+        padding: 61px 21px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+     }  
+     .investitsiya_row_img {
+        position: relative; 
+    }
+    
+    .investitsiya_row_img_row {
+        position: absolute; 
+        z-index: 1000;
+    }
+    
+    .investitsiya_row_img_row img {
+        z-index: 1; 
+        width: 339px;
+        /* width: 100%; */
+        height: 166.2px;
+    
+        
+    }
+    
+    .investitsiya_row_img .alt_img_list {
+        position: absolute; 
+        width: 220px;
+        height: 100.26px;
+        top: 36%;
+        left: 37%;
+        z-index: -1; 
+    }
+    .investitsiya_row_img .bnt button{
+        width: 339px;
+        height: 48px;
+        border-radius: 20px 0px 20px 0px;        
+        background: #0000DE;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.4px;
+        margin-top: 60%;
+        margin-left: 0%;
+            
+        
+    }
+    .investitsiya_row_teg h1{
+        width: 339px;
+        line-height: 30px;
+        font-size: 28px;
+        margin-top: 51px ;
+            
+    }
+    .investitsiya_row_teg p{
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        width: 339px;
+        height: 47px;
+        color: #6489A0;
+        padding: 9px 0; 
+    }
+    .one{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 10px;
+    }
+    .onea{
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: -10px;
+    }
+    .one_row{
+        display: flex;
+        align-items: center;
+    }
+    .alr{
+        width: 40px;
+        height: 40px;
+        background: #D7DFFE;
+        border: 1px solid #355DFB;
+        border-radius: 50%;
+        color: #355DFB;
+        font-size: 30px;
+        font-weight: 200;
+        margin-left: 1px;
+    }
+    .one_row p{
+        width: 300px;
+        height: 39px;
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 17px;  
+        margin-top: 10px;
+    }
+    .pr{
+        width: 339px;
+        height: 223px;     
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;       
+        color: #6489A0;
+        padding: 12px 0;
+            
+    }
+    
+
+}
