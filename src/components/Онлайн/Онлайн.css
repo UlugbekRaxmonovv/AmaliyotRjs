@@ -214,4 +214,149 @@ select{
     .onlayn_img_x img{
         display: none;
     }
+
+    .onlayun_all{
+        width: 390px;
+        height: 1152px;
+        border-radius: 20px;
+        background: #FFFFFF;
+        box-shadow: 6px 6px 70px 0px #00000017;
+        
+    }
+    .onlayn_list {
+        padding: 53px 21px;
+    }
+    .onlayn_list h1{
+        font-family: Ubuntu;
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 31.9px;        
+        width: 339px;
+        height: 69px;
+        color: #000000;  
+    }
+    .onlayn_list_row{
+        display: flex;
+        align-items: self-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .onlayn_list_item h1{
+        font-family: Ubuntu;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 19.8px;
+        text-align: left;
+        color: #0000DE;
+        width: 339px;
+        height: 28px;
+        padding: 21px 0;
+    }
+    .onlayn_x{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .onlayn_p{
+        width: 339px;
+        height: 68px;        
+        border-radius: 10px;
+        background: #FFFFFF;
+        border: 1px solid #DCEAF6;
+        margin-bottom: 10px;  
+        padding: 11px 17px;
+        margin-top: 20px;
+    }
+    .onlayn_p p{
+        width: 304px;
+        height: 19px;
+        
+    
+    }
+    .onlayn_p h5{
+        width: 304px;
+        height: 19px;
+    }
+    
+    .onlayn_p h6{
+        width: 304px;
+        height: 19px;
+    
+    }
+    .onlayn_p h4{
+        width: 304px;
+        height: 19px;
+    }
+    select{
+        width: 304px;
+        height: 19px;
+    }
+    .onlayn_btn{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .onlayn_btn_link button{
+        width: 339px;
+        height: 48px;
+        border-radius: 20px 0px 20px 0px;
+        background: #0000DE;
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15.4px;
+        text-align: center;        
+        color: #FFFFFF;
+        border: none;
+        
+        
+    }
+    .onlayn_btn_linkw p{
+        width: 339px;
+        height: 19px;        
+        font-family: Ubuntu;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;        
+        color: #9AB5C6;
+        
+    }
+    
+    .onlayn_btn_linkw h6{
+  display: none;
+
+        
+    }
+
+    .foz{
+        width: 133px;
+        height: 4px;
+        border-radius: 8px;
+        background: #355DFB;
+        margin-top: 15px;
+        
+    }
+    .foz1{
+        margin-left: 40%;
+        margin-top: -4%;
+    }
+    .foz2   {
+        margin-top: 15px;
+    }
+    .foz3{
+        margin-left: 60%;
+        margin-top: -3.5%;
+    }
+    
+    .foz4  {
+        margin-top: 15px;
+    }
+    .foz5{
+        margin-left: 10%;
+        margin-top: -3%;
+    }
 }
