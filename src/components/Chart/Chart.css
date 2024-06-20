@@ -122,6 +122,7 @@
         display: flex;
         align-items: center;
         gap: 5px;
+        padding: 0 21px;
     }
     .all_chat{
         width: 20.84px;
