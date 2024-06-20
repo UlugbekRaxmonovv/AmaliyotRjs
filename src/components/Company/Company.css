@@ -161,7 +161,7 @@
 
 @media(max-width:390px){
     .company {
-        margin-top: -90px;
+        /* margin-top: -90px; */
         overflow-y: hidden;
     }
     .company_Alt_row {
