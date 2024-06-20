@@ -124,13 +124,13 @@ const Navbar = () => {
                 </div>
             </header>
 
-          <div className="hammasi">
+          <div className={`hammasi ${menu ? "menu_alls" : ""}`}>
           <div className="menu">
                 <div className="menu_alla">
-              <img src={rasm5} alt="" />
+              <img src={rasm5} alt=""  onClick={() =>setMenu(!menu)}/>
                 </div>
                 <div className="menu_all">
-              <img src={rasm2} alt="" />
+              <img src={rasm2} alt=""  />
                 </div>
                 <div className="menu_all">
                 <div className="search_alll">
@@ -140,7 +140,7 @@ const Navbar = () => {
                                 </div>
                 </div>
             </div>
-            <div className="link">
+            <div className={`link ${menu ? "menu_alls" : ""}`}>
                         <li>
                             <Link to='/'>Инвестиции</Link>
                         </li>

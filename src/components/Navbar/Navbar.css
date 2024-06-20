@@ -205,8 +205,12 @@ height: 24px;
     left: 0;
     right: 0;
     display: none;
-    height: 135px;
+    height: 80px;
     padding:  0 21px;
+    transition: all .15s linear;
+}
+.hammasi.menu_alls{
+    height: 135px;
 }
 .menu{
     width: 339px;
@@ -215,6 +219,10 @@ height: 24px;
     justify-content: center;
     gap: 12px;
     padding: 19px 0;
+    border-bottom: none;
+    transition: all .10s linear;
+}
+.hammasi.menu_alls .menu{
     border-bottom: 1px solid #CBD8E9;
 }
 .menu_all img{
@@ -242,6 +250,9 @@ height: 32px;
     align-items: center;
     gap: 17px;
     padding: 19px 0;
+    display: none;
+    transition: all .10s linear;
+    margin-top: -20px;
 }
 .link li a{
     font-family: Ubuntu;
@@ -267,6 +278,14 @@ height: 32px;
     }
     .hammasi{
         display: block;
+    }
+    .link.menu_alls{
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 17px;
+        padding: 19px 0;
+        margin-top: 0px;
     }
 
 }

@@ -1,0 +1,145 @@
+.Chart{
+    padding: 102px 0;
+    margin-top: -150px;
+}
+.Line{
+    width: 100%;
+    padding: 80px 0;
+    margin-top: -170px;
+}
+.Chart_all h1{
+    font-family: Ubuntu;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 37.4px;
+    text-align: left;
+    color: #000000;
+    
+}
+.Chart_all p{
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #6489A0;
+    height: 27px;
+    padding: 19px 0;
+    
+}
+.chart{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chart_row p{
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #6489A0;
+    height: 27px;
+    
+}
+.chart_row_p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+.chart_row_h1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.all_chat{
+    width: 20.84px;
+    height: 20.84px;
+    border: 6px   solid #0000DE;
+    background: #FFFFFF;
+    border-radius: 50%;
+    
+}
+.chart_row_h1 h1{
+    font-family: Ubuntu;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23.8px;
+    text-align: left;
+    color: #000000;
+    
+}
+
+
+@media(max-width:390px){
+    .Chart{
+        padding: 102px 0;
+        margin-top: -150px;
+    }
+    .Line{
+        width: 339px;
+        overflow: auto;
+        padding: 40px 21px;
+    }
+     .Chart_all{
+     padding: 0 21px;
+    }
+    .Chart_all h1{
+        width: 339px;
+        height: 39px;
+        font-size: 28px;
+        line-height: 15 .8px;
+        
+    }
+    .Chart_all p{
+        font-size: 16px;
+        line-height: 18.4px;
+        height: 69px;
+        padding: 9px 0;
+        
+    }
+    .chart{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0 21px;
+    }
+    .chart_row p{
+      display: none;     
+    }
+    .chart_row_p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    .chart_row_h1{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .all_chat{
+        width: 20.84px;
+        height: 20.84px;
+        border: 6px   solid #0000DE;
+        background: #FFFFFF;
+        border-radius: 50%;
+        margin-top: -20px;
+        
+    }
+    .chart_row_h1 h1{
+        font-family: Ubuntu;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19.6px;
+        text-align: left;        
+        color: #000000;
+        
+    }
+    
+}

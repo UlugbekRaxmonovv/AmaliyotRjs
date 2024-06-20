@@ -9,6 +9,8 @@ import Investitsiya from './components/Investitsiya/Investitsiya'
 import Company from './components/Company/Company'
 import IshModeli from './components/IshModeli/IshModeli'
 import Онлайн from './components/Онлайн/Онлайн'
+import Footer from './components/Footer/Footer'
+import Chart from './components/Chart/Chart'
 import InvestitsionMahsulotlar from './components/InvestitsionMahsulotlar/InvestitsionMahsulotlar'
 function App() {
 
@@ -19,11 +21,13 @@ function App() {
     <Section/>
     <Рассчитай/>
     <Investitsiya/>
+    <Chart/>
     <InvestitsionMahsulotlar/>
     <Company/>
     <Buyurtma/>
     <IshModeli/>
     <Онлайн/>
+    <Footer/>
    
     </>
   )
